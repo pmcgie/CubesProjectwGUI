@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainSelection">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="768" height="487"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a748d" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="af297" class="javax.swing.JRadioButton" binding="addNewRecordRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add New Record"/>
+        </properties>
+      </component>
+      <component id="8f328" class="javax.swing.JRadioButton" binding="updateRecordRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="134" height="221"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Update Record"/>
+        </properties>
+      </component>
+      <component id="252ff" class="javax.swing.JRadioButton" binding="deleteRecordRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="188" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Delete Record"/>
+        </properties>
+      </component>
+      <component id="57f8c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Main Menu (Select one of the following and enter any necessary information below)"/>
+        </properties>
+      </component>
+      <component id="f8f17" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter in Record Name:"/>
+        </properties>
+      </component>
+      <component id="40272" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="225" height="221"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enter in Record Name:"/>
+        </properties>
+      </component>
+      <component id="b884" class="javax.swing.JRadioButton" binding="quitProgramRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quit Program"/>
+        </properties>
+      </component>
+      <component id="38593" class="javax.swing.JTextField" binding="UpdateRecName">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="30e14" class="javax.swing.JTextField" binding="DelRecName">
+        <constraints>
+          <grid row="3" column="3" row-span="2" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Allbuttons">
+      <member id="252ff"/>
+      <member id="252ff"/>
+      <member id="af297"/>
+      <member id="8f328"/>
+    </group>
+  </buttonGroups>
+</form>
